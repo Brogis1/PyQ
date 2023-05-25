@@ -17,7 +17,6 @@ from pyqtorch.core.operation import batchedRX
 
 
 class SingleLayerEncoding(QuantumCircuit):
-
     def __init__(self, n_qubits):
         super().__init__(n_qubits)
 
